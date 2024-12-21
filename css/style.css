@@ -1,0 +1,262 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1c1c1c;
+    padding: 10px 20px;
+    color: #fff;
+  }
+
+  .navbar .left-icons
+  .navbar .right-icons {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+  }
+
+  .navbar .center-title {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+
+  .navbar a:hover {
+    color: #aaa;
+  }
+
+  .navbar .icon {
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    gap: 35px;
+    font-weight: 400;
+    font-family: poppins;
+  }
+
+  .menu a {
+    text-decoration: none;
+    color: #000;
+    margin: 0 15px;
+    font-size: 16px;
+    position: relative;
+    padding: 5px 0;
+    transition: color 0.3s;
+    font-family: poppins;
+    font-weight: 400;
+  }
+
+  .menu a:hover {
+    color: #555;
+  }
+
+  .menu a::after {
+    content: '\25BE'; /* Downward triangle */
+    font-size: 10px;
+    margin-left: 5px;
+    visibility: hidden;
+  }
+
+  .menu a.dropdown::after {
+    visibility: visible;
+  }
+
+  .menu a:last-child {
+    margin-right: 0;
+  }
+
+  .promo-banner {
+    background-color: #fffbe0; /* Light yellow background */
+    color: #000;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: poppins;
+    
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  .services-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #ffffff;
+  }
+  
+  .service {
+    text-align: center;
+    width: 30%;
+  }
+  
+  .service .icon img {
+    width: 40px; /* Adjust the size of the icons */
+  
+  }
+  
+  .service h3 {
+    font-size: 18px;
+    color: black;
+    margin: 10px 0;
+    font-weight: bold;
+    font-family: poppins;
+  }
+  
+  .service p {
+    font-size: 14px;
+    color: #777;
+    line-height: 1.5;
+  }
+
+
+
+  
+
+.clothing-container {
+    display: flex;
+    gap: 20px;
+    max-width: 1200px;
+    padding: 35px;
+    justify-content: center;
+    margin-left: 70px;
+}
+
+.clothing-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.clothing-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.clothing-card h3 {
+    margin: 15px 0 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.clothing-card p {
+    margin: 0 15px 20px;
+    color: #555;
+    font-size: 16px;
+}
+
+.clothing-card a {
+    display: inline-block;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.clothing-card a:hover {
+    background-color: #444;
+}
+
+
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: poppins;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.product {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.product-details {
+  padding: 15px;
+}
+
+.product-title {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+}
+
+.product-price {
+  font-size: 1.2rem;
+  color: #2a9d8f;
+  margin-bottom: 10px;
+}
+
+.product-colors {
+  display: flex;
+  gap: 5px;
+}
+
+.color {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+
+.color.green { background-color: #6b8e23; }
+.color.brown { background-color: #a0522d; }
+.color.blue { background-color: #4682b4; }
+.color.gray { background-color: #d3d3d3; }
